@@ -9,14 +9,14 @@ public class BMI {
 	
 		System.out.print("Enter weight in pounds: ");
 		double weight = input.nextDouble();
-
+     
 	
 		System.out.print("Enter height in inches: ");
 		double height = input.nextDouble();
 
 		
 		weight = weight * KILOGRAMS_PER_POUND;
-
+                int  height = input.nextInt();
 		
 		height = height * METERS_PER_INCH;
 
